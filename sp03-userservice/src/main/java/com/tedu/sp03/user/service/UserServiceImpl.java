@@ -2,6 +2,7 @@ package com.tedu.sp03.user.service;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
@@ -12,6 +13,8 @@ import com.tedu.sp01.service.UserService;
 import com.tedu.web.util.JsonUtil;
 
 import lombok.extern.slf4j.Slf4j;
+//只有添加了@refreshscope 注解 bean实例,才会被重新注入新的配置数据
+
 @RefreshScope
 @Slf4j
 @Service
