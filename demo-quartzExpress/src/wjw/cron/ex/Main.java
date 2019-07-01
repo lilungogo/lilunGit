@@ -19,6 +19,7 @@ public class Main {
   /**
    * @param args the command line arguments
    */
+	/*1122**/
   public static void main(String args[]) {
     initCustomLAF();
     java.awt.EventQueue.invokeLater(new Runnable() {
